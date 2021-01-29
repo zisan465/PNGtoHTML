@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--Header Section Start Here-->
+    <section class="header_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <div class="pt-2">
+                        <img src="img/logo.png" alt="web_logo" class="header_img">
+                    </div>
+                </div>
+                <div class="col-10">
+                    <button class="btn btn-primary header_menu_button" onclick="showMenu()">
+                        <i class="fa fa-bars" ></i>
+                    </button>
+                    <div class="pt-3 header_menu_section header_menu_responsive">
+                        <ul id="myDIV" class="justify-content-end text-capitalize">
+                            <i class="fa fa-times text-primary" onclick="exitMenu()"></i>
+                            <li  ><a class="btns active" href="#home">home</a></li>
+                            <li  ><a class="btns" href="#about">About Us</a></li>
+                            <li  ><a class="btns" href="#services">Services</a></li>
+                            <li  ><a class="btns" href="#portfolio">Portfolio</a></li>
+                            <li  ><a class="btns" href="javascript:void()">Pages</a>
+                                <ul class="list-group d-none">
+                                    <li class="list-unstyled"><a href="javascript:void()">404 Page Error</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-link" ><a class="btns" href="#blog">Blog</a></li>
+                            <li class="nav-link" ><a class="btns" href="#contact">Contact</a></li>
+                            <li class="nav-link mt-n2" ><button class="btn own_button d-none d-xl-block">Get It Now</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--Header 2ndSection Start Here-->
+    <section id="home" class="header_2nd_section">
+        <div class="container">
+            <div class="row">
+             <div class="col-12 col-md-4">
+                <div class="header_section_cover  py-5 my-5  py-md-0 my-md-0 text-center text-md-left">
+                    <h1 class="text-capitalize pt-md-5 mt-md-5">take your business to  next level.</h1>
+                    <p class="mt-2 font-weight-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque dignissimos maxime quasi dolores, rerum eveniet officia ullam soluta sunt amet in molestiae</p>
+                    <button class="btn own_button header_button mt-4">Discover More</button>
+                </div>
+             </div>
+            </div>
+        </div>
+    </section>
+<!--3rd Section Start Here-->
+    <section id="services" class="thard_section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card_header">
+                        <span class="lead text-primary text-uppercase">core features</span>
+                        <h2 class="font-weight-bold py-4">Provide Awesome Service <br> With Our Tools</h2>
+                        <p class="font-weight-light pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Illum sit dolorum, quidem ipsa obcaecati. </p>
+                    </div>
+                </div>
+                <div class="col-12 mt-4 mb-5">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-6 col-xl-3">
+                            <div class="card_patter_img">
+                                <div class="card border-0 p-4">
+                                    <h5>Discover, Explore the Product</h5>
+                                    <div class="card_icon_cover">
+                                        <i class="fa fa-compass p-3 my-3 card_hov" aria-hidden="true"></i>
+                                    </div>
+                                    <p class="font-weight-light pt-3">Discover, Explore & Understanding The Product</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-xl-3 mt-5 mt-sm-0">
+                            <div class="card border-0 p-4">
+                                <h5>Discover, Explore the Product</h5>
+                                <div class="card_icon_cover">
+                                    <i class="fa fa-database card_hov p-3 my-3 " aria-hidden="true"></i>
+                                </div>
+                                <p class="font-weight-light pt-3">Discover, Explore & Understanding The Product</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-xl-3 mt-5 mt-xl-0">
+                            <div class="card border-0 p-4">
+                                <h5>Discover, Explore the Product</h5>
+                                <div class="card_icon_cover">
+                                    <i class="fa fa-pie-chart card_hov p-3 my-3 " aria-hidden="true"></i>
+                                </div>
+                                <p class="font-weight-light pt-3">Discover, Explore & Understanding The Product</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-xl-3 mt-5 mt-xl-0">
+                            <div class="card border-0 p-4">
+                                <h5>Discover, Explore the Product</h5>
+                                <div class="card_icon_cover">
+                                    <i class="fa fa-television card_hov p-3 my-3 " aria-hidden="true"></i>
+                                </div>
+                                <p class="font-weight-light pt-3">Discover, Explore & Understanding The Product</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--Four Section Start Here-->
+<section id="portfolio" class="four_section py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 order-2 order-md-1">
+                    <div class="about_header pt-5">
+                        <span class="lead text-primary text-uppercase">what we do</span>
+                        <h2 class="font-weight-bold py-4 text-capitalize">websites that tell your <br> brand's story</h2>
+                        <p class="font-weight-light pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Illum sit dolorum, quidem ipsa obcaecati. </p>
+                    </div>
+                    <div class="about_menu">
+                        <div class="own_btn-group my-4">
+                            <button class="btn mr-sm-2 mr-0 py-sm-2 py-1 px-2 px-sm-3"  id="about_btn_1">Content</button>
+                            <button class="btn mx-sm-2 mx-1 py-sm-2 py-1 px-2 px-sm-3"  id="about_btn_2">Strategy</button>
+                            <button class="btn mx-sm-2 mx-0 py-sm-2 py-1 px-2 px-sm-3" id="about_btn_3">Development</button>
+                        </div>
+                        <div class="content-group">
+                            <div class="content-1">
+                                <p class="font-weight-lighter">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus aut culpa quia cumque nostrum. Voluptatibus sint repellat similique molestias itaque.</p>
+                                <ul class="list-group">
+                                    <li class="lead"><i class="fa fa-check-circle-o mr-3 text-primary font-weight-lighter"></i>Commitment to excelence</li>
+                                    <li class="lead"><i class="fa fa-check-circle-o mr-3 text-primary font-weight-lighter"></i>Clients are our partners</li>
+                                    <li class="lead"><i class="fa fa-check-circle-o mr-3 text-primary font-weight-lighter"></i>Fun is an absolute must</li>
+                                </ul>
+                            </div>
+                            <div class="content-2 ">
+                                <p class="font-weight-lighter">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quaerat exercitationem odio perferendis accusamus repudiandae consequatur hic impedit sint aperiam consectetur fuga itaque, quibusdam dolor atque autem labore officia quos unde minus inventore, quo sed nemo perspiciatis. Totam, eos cum.</p>
+                                <p class="font-weight-lighter">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatum consectetur, fuga nesciunt nemo enim nihil distinctio velit quas quasi, cum, omnis recusandae qui incidunt dolore! Id quasi voluptas praesentium?</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="col-12 col-md-6 order-1 order-md-2">
+                <div class="py-5">
+                    <img src="img/about-img.png" alt="about-img" class="w-100">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--5th Section Start Here-->
+<section id="blog" class="five_section py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center text-light mt-5">
+                <div class="video_content">
+                    <h3 class="lead text-uppercase">create your own experience</h3>
+                    <h2 class="font-weight-bold text-capitalize pb-5">ready to grow faster?</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque aliquam repudiandae ut, <br> porro blanditiis labore repellat quae nulla quam corporis!</p>
+                    <a href="javascript:void()"  class="play-btn" onclick="videoShow()"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--6th Section Start Here-->
+<section class="six_section py-5">
+    <div class="container">
+        <div class="row text-center">
+           <div class="col-12 mb-5">
+                <div class="six_header_section">
+                    <span class="lead text-primary text-uppercase">pricing table</span>
+                    <h2 class="mb-5 font-weight-bold">Our Pricing Plan</h2>
+                    <p class="mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur recusandae <br/> necessitatibus, impedit explicabo exercitationem repellendus</p>
+                </div>
+           </div>
+           <div class="col-12 col-sm-6 col-md-4">
+                <div class="price_card bg-light">
+                    <h4 class="pt-5">Single Use</h4>
+                    <h2 class="display-4 font-weight-normal pt-3"><span>$</span>10</h2>
+                    <span>per month</span>
+                    <div class="w-75 m-auto pt-3"><hr></div>
+                    <ul  class="list-group pt-2">
+                        <li  class="list-unstyled">Up to 5 users</li>
+                        <li  class="list-unstyled">Basic support on Github</li>
+                        <li  class="list-unstyled">Monthly updates</li>
+                        <li  class="list-unstyled">Free cancelation</li>
+                        <li  class="list-unstyled"><button class="btn btn-primary my-5 own_button header_button price_card_button">Start Free Trial</button></li>
+                    </ul>
+                </div>
+           </div>
+           <div class="col-12 col-sm-6 col-md-4 pt-5  pt-sm-0">
+            <div class="price_card bg-light">
+                <h4 class="pt-5">Multiple Use</h4>
+                <h2 class="display-4 font-weight-normal pt-3"><span>$</span>20</h2>
+                <span>per month</span>
+                <div class="w-75 m-auto pt-3"><hr></div>
+                <ul  class="list-group pt-2">
+                    <li  class="list-unstyled">Up to 10 users</li>
+                    <li  class="list-unstyled">Basic support on Github</li>
+                    <li  class="list-unstyled">Monthly updates</li>
+                    <li  class="list-unstyled">Free cancelation</li>
+                    <li  class="list-unstyled"><button class="btn btn-primary my-5 own_button header_button price_card_button">Start Free Trial</button></li>
+                </ul>
+            </div>
+           </div>
+           <div class="col-12 col-sm-6 col-md-4 pt-5 pt-md-0 m-auto">
+            <div class="price_card bg-light">
+                <h4 class="pt-5">Extended Use</h4>
+                <h2 class="display-4 font-weight-normal pt-3"><span>$</span>30</h2>
+                <span class="lead pb-5">per month</span>
+                <div class="w-75 m-auto pt-3"><hr></div>
+                <ul class="list-group pt-2">
+                    <li  class="list-unstyled">Up to 20 users</li>
+                    <li  class="list-unstyled">Basic support on Github</li>
+                    <li  class="list-unstyled">Monthly updates</li>
+                    <li class="list-unstyled">Free cancelation</li>
+                    <li  class="list-unstyled"><button class="btn my-5 own_button header_button price_card_button">Start Free Trial</button></li>
+                </ul>
+            </div>
+           </div>
+        </div>
+    </div>
+</section>
+
+<!--7th Section Start Here-->
+<section class="seven_section py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center text-light mt-5">
+                <div class="video_content free_section_content">
+                    <h3 class="lead text-uppercase">Best free lite</h3>
+                    <h2 class="font-weight-bold text-capitalize pb-5">currently you are using free <br> lite version of test</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque aliquam repudiandae ut, <br> porro blanditiis labore repellat quae nulla quam corporis!</p>
+                    <button class="btn own_button price_card_button my-5">Purchase Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--8th Section Start Here-->
+<section class="eight_section py-5">
+    <div class="container">
+        <div class="row text-center">
+           <div class="col-12 mb-5">
+                <div class="six_header_section">
+                    <span class="lead text-primary text-uppercase">latest news</span>
+                    <h2 class="mb-5 font-weight-bold">latest news & blog</h2>
+                    <p class="mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur recusandae <br/> necessitatibus, impedit explicabo exercitationem repellendus</p>
+                </div>
+           </div>
+           <div class="col-12 col-sm-6 col-md-4">
+            <div class="news" >
+                <div class="overflow-hidden position-relative">
+                    <img class="card-img-top news_img" src="img/blog-grid1.jpg" alt="Card image cap">
+                    <div class="author_pic-cover">
+                        <img src="img/author.jpg" alt="author">
+                        <h6 class="text-uppercase">By tim norton</h6>
+                    </div>
+                </div>
+                <div class="news-body text-left">
+                    <h4 class="py-3">Make your team a design driven company</h4>
+                  <p  class="news-text font-weight-light ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+           </div>
+           <div class="col-12 col-sm-6 col-md-4 pt-5 pt-sm-0">
+            <div class="news">
+                <div class="overflow-hidden position-relative">
+                    <img class="card-img-top news_img" src="img/blog-grid2.jpg" alt="Card image cap">
+                    <div class="author_pic-cover">
+                        <img src="img/author.jpg" alt="author">
+                        <h6 class="text-uppercase">By tim norton</h6>
+                    </div>
+                </div>
+                <div class="news-body text-left">
+                  <h4 class="py-3">The newest web framework that changed the world</h4>
+                  <p  class="news-text font-weight-light ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+           </div>
+           <div class="col-12 col-sm-6 col-md-4 m-auto pt-5 pt-md-0">
+            <div class="news" >
+                <div class="overflow-hidden position-relative">
+                    <img class="card-img-top news_img" src="img/blog-grid3.jpg" alt="Card image cap">
+                    <div class="author_pic-cover">
+                        <img src="img/author.jpg" alt="author">
+                        <h6 class="text-uppercase">By tim norton</h6>
+                    </div>
+                </div>
+                <div class="news-body text-left">
+                    <h4 class="py-3">5 ways to improve user retention for your startup</h4>
+                  <p class="news-text font-weight-light ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+           </div>
+        </div>
+    </div>
+</section>
+<!--9th Section Start Here-->
+<section class="nine_section py-5">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-12 col-md-8">
+                <div class="subscribe_form_box w-100 bg-primary p-5 text-light">
+                    <h2>Sign up for newsletter</h2>
+                    <p class="py-4">Sign up and start using a free account <br> to see what it's all about</p>
+                    <form action="javascript:void()">
+                        <div class="row">
+                            <div class="col-12 col-md-8">
+                                <input class="form-control w-100 float-left" type="email" placeholder="Your email address">
+                            </div>
+                            <div class="col-12 mt-3  mt-md-0 col-md-4">
+                                <button class="btn price_card_button own_button header_button w-100" type="submit">Subscribe Now!</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 m-auto ">
+                <div class="business_started mt-5 mt-md-0 p-4 p-xl-5">
+                    <h5>Do you want to grow your online busniess with Massive?</h5>
+                    <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima,</p>
+                    <button class="btn price_card_button own_button header_button  mt-3 mt-xl-0 py-3 px-5">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--10th Section Start Here-->
+<section class="ten_section py-5">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="soution">
+                    <span class="lead text-primary text-uppercase">our Awesome clients</span>
+                    <h2 class="text-capitalize font-weight-bold">we built best <br> solutions for your <br> company</h2>
+                    <p class="py-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi velit, voluptatibus rerum perspiciatis nulla commodi iste. Dicta porro fugit consequuntur?</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-8">
+                <div class="brand_img mr-5 mr-sm-0">
+                            <img src="img/client3.png" class="border" alt="brand_img"> 
+                            <img src="img/client2.png" class="border" alt="brand_img">
+                            <img src="img/client1.png" class="border" alt="brand_img">
+                            <img src="img/client6.png" class="border" alt="brand_img">
+                            <img src="img/client5.png" class="border" alt="brand_img">
+                            <img src="img/client4.png" class="border" alt="brand_img">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Footer Section end here-->
+<footer id="contact" class="footer_section pt-5">
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-6 col-md-3">
+                <div class="fotter_end">
+                    <img src="img/logo.png" class="w-50" alt="brand_logo">
+                    <p class="mt-4">Lorem ipsum dolor sit amet<br> adipisicing elit. Consequatur.<br> reprehenderit obcaecati</p>
+                    <div class="fotter_menu mt-4">
+                        <ul class="list-group list-group-horizontal">
+                            <li class="list-unstyled"><a href="javascript:void()"><i class="fa fa-instagram text-light"></i></a></li>
+                            <li class="list-unstyled"><a href="javascript:void()"><i class="fa fa-twitter text-light"></i></a></li>
+                            <li class="list-unstyled"><a href="javascript:void()"><i class="fa fa-linkedin text-light"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="footer_menu_item">
+                    <h3 class="font-weight-normal">&nbsp  Pages</h3>
+                    <ul class="list-group">
+                        <li class="list-unstyled py-1">About Us</li>
+                        <li class="list-unstyled py-1">Our Services</li>
+                        <li class="list-unstyled py-1">Contact Us</li>
+                        <li class="list-unstyled py-1">Our Blog</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mt-5 mt-md-0 ">
+                <div class="footer_menu_item">
+                    <h3 class="font-weight-normal">&nbsp  More Links</h3>
+                    <ul class="list-group">
+                        <li class="list-unstyled py-1">Topics</li>
+                        <li class="list-unstyled py-1">Terms of Use</li>
+                        <li class="list-unstyled py-1">Privacy Policy</li>
+                        <li class="list-unstyled py-1">License</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mt-5 mt-md-0 ">
+                <div class="footer_menu_item">
+                    <h3 class="font-weight-normal">&nbsp  Support</h3>
+                    <ul class="list-group">
+                        <li class="list-unstyled py-1">Cookies</li>
+                        <li class="list-unstyled py-1">Forum</li>
+                        <li class="list-unstyled py-1">Support Team</li>
+                        <li class="list-unstyled py-1">Sitemap</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="cardit text-center mt-5">
+                    <hr style="background-color: rgba(121, 121, 121, 0.788);">
+                    <figcaption class="pt-2 pb-4">Designed and Developed by LFWF Academy</figcaption>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--Fixed Youtube Video HTML Code Here-->
+<div class="fixed_video_section p-5">
+    <iframe width="90%" height="800px"  class="youtube_video" frameborder="0" autoplay allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <i class="fa fa-times display-4 text-primary" onclick="videoExit()"></i>
+</div>
+<!--Fixed Scroll Top HTML Code Here-->
+<div class="scroll_top">
+    <img src="img/scrolltop.png" alt="scroll_Top" onclick="window.scrollTo(0,0)">
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
